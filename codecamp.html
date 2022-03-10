@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="stylecamp.css" />
+  </head>
+  <body>
+    <h1>freeCodeCamp survey form</h1>
+    <h1>Thank you for taking the time to help us improve the platform</h1>
+    <form>
+      <h3 style="color: rgb(255, 255, 255);">Name </h3>
+      <input
+        type="text"
+        id="Name"
+        name="Name"
+        required
+        minlength="4"
+        maxlength="30"
+        size="50"
+      />
+      <h3 style="color: rgb(255, 255, 255);">Email </h3>
+      <input
+        type="text"
+        id="Email"
+        name="Email"
+        required
+        minlength="4"
+        maxlength="30"
+        size="50"
+      />
+      <h3>Age </h3>
+      <input
+        type="text"
+        id="Age"
+        name="Name"
+        required
+        minlength="4"
+        maxlength="30"
+        size="50" >
+        <br>
+        <br>
+     
+                <label > witch option best describe current roles? </label>
+                <br>
+                <br>
+                <div class="odf" ></div>
+          <select>
+                <option disabled selected value>Select current role</option>      
+                <option value="good">Good</option> 
+                <option value="Medium">Medium</option> 
+                <option value="Less">Less</option> 
+                <option value="Notapprouved">not approuved</option> 
+                </select>   
+       <br>
+      <h3> what you recommended freecodeCamp ? </h3>
+        <input type="radio" id="definitely" name="text" >
+        <label for="definitely"> definitely</label><BR>
+        <input type="radio" id="Maybe" name="text">
+         <label for="Maybe"> Maybe</label><br>
+        <input type="radio" id="Notsur" name="text">
+         <label for="Notsur"> Not sur</label>
+      <br>
+      <br>
+      <h3> what yould you like to see improved , (check all that apply) ? </h3>
+      <input type="checkbox" id="frp" name="text" >
+      <label for="frp"> Front-end Project</label><BR>
+      <input type="checkbox" id="be" name="text">
+       <label for="be"> Back-end Project</label><br>
+      <input type="checkbox" id="dv" name="text">
+       <label for="dv">data Visualisation</label><BR>
+       <input type="checkbox" id="ch" name="text">
+       <label for="ch">Challenge</label><BR>
+       <input type="checkbox" id="opsc" name="text">
+       <label for="opsc" >Open source community</label><BR>
+       <input type="checkbox" id="ghr" name="text">
+       <label for="ghr" >Gitter help rooms</label><BR>
+       <input type="checkbox" id="video" name="text">
+       <label for="video">Video</label><BR>
+       <input type="checkbox" id="cm" name="text">
+       <label for="cm">City meetups</label><BR>
+       <input type="checkbox" id="forum" name="text">
+       <label for="forum">Forum</label><BR>
+       <input type="checkbox" id="AC" name="text">
+       <label for="AC">Addional coures</label><BR>
+       <br>
+       <label>Any Comments or Suggestios? </label><br>
+       <textarea id="suggestio" placeholder="Enter your comment here"></textarea>
+       <br>
+       <br>
+      <button type="button">Submit</button>
+     </form>
+  </body>
+</html>

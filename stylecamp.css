@@ -1,0 +1,38 @@
+body {
+    background-image:linear-gradient(#8f3d7a80, #8f3d7a80),
+    url(https://cdn.discordapp.com/attachments/949285316160782396/951436384038694922/77eba96f-451f-41a9-a880-2ccb965e1926.png)
+    ;   
+}
+h1 {
+    text-align: center;
+    color: white;
+}
+form {
+   
+    background-color: rgb(0, 0, 67);
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1%;
+    padding-bottom: 2%;
+}
+form {
+    color: white;   
+}
+textarea {
+    padding: 10px;
+    width: 530px;
+    height: 120px;
+    line-height: 20px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+}
+
+button {
+   text-align: center;
+   background-color: rgb(5, 161, 31);
+   width: 95%;
+   height: 40px;
+
+}
